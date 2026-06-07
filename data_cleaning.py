@@ -31,5 +31,6 @@ for col in df.select_dtypes(include="object"):
 
 # Save cleaned dataset
 df.to_csv("cleaned_dataset.csv", index=False)
+df.to_excel("cleaned_dataset.xlsx", index=False)
 
-print("\nCleaning Completed Successfully!")
+print("Cleaning Completed Successfully!")
